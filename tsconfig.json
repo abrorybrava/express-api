@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",                  // Gunakan ESNext untuk mendukung ESM
+      "target": "ESNext",                  // Targetkan ke versi ESNext
+      "moduleResolution": "Node",          // Resolusi modul Node.js
+      "esModuleInterop": true,             // Untuk kompatibilitas dengan CommonJS
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "outDir": "./dist",                  // Direktori output JavaScript setelah dikompilasi
+      "rootDir": "./src",                  // Direktori sumber TypeScript
+      "resolveJsonModule": true            // Memungkinkan import file JSON
+    },
+    "include": ["src"],                     // Menentukan direktori untuk TypeScript
+    "exclude": ["node_modules"]             // Menentukan direktori yang tidak akan diproses
+  }
+  
